@@ -106,28 +106,6 @@ The analysis uses the following tables:
 * User engagement is highest at the product browsing stage, with fewer users proceeding to cart actions.
 * Most product ratings fall within medium to high ranges, suggesting generally positive customer feedback.
 
----
-
-## Project Structure
-
-```
-ecommerce-data-analysis
-│
-├── notebooks
-│   ecommerce_analysis.ipynb
-│
-├── sql
-│   ecommerce_queries.sql
-│
-├── images
-│   order_trend.png
-│   category_revenue.png
-│
-├── README.md
-└── requirements.txt
-```
-
----
 
 ## Conclusion
 
