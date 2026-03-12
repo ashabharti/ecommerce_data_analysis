@@ -3,9 +3,19 @@
 ## Project Overview
 
 This project analyzes a multi-table e-commerce dataset to understand sales performance, customer behavior, and product trends.
-The goal is to generate actionable insights using SQL and Python.
+The goal is to extract meaningful insights using **SQL and Python** to support data-driven decision making in an online retail environment.
 
-The dataset includes transactional, behavioral, and review data from an online retail platform.
+The dataset includes transactional, behavioral, and review data from an e-commerce platform.
+
+---
+
+## Dataset Source
+
+The dataset used in this project was obtained from Kaggle:
+
+https://www.kaggle.com/datasets/abhayayare/e-commerce-dataset
+
+The dataset consists of multiple related tables representing different aspects of an online shopping platform.
 
 ---
 
@@ -16,9 +26,9 @@ The analysis uses the following tables:
 * **users** – customer information such as gender, city, and signup date
 * **products** – product details including category, brand, price, and rating
 * **orders** – order transactions and order status
-* **order_items** – products included in each order
+* **order_items** – individual products included in each order
 * **events** – user interactions such as product views and cart actions
-* **reviews** – customer ratings and feedback on purchased products
+* **reviews** – customer ratings and written feedback
 
 ---
 
@@ -40,7 +50,7 @@ The analysis uses the following tables:
 3. SQL analysis for business metrics
 4. Exploratory data analysis using Python
 5. Visualization of trends and patterns
-6. Deriving business insights
+6. Extraction of key business insights
 
 ---
 
@@ -50,22 +60,22 @@ The analysis uses the following tables:
 
 * Total revenue calculation
 * Average order value
-* Monthly order trend
+* Monthly order trends
 
 ### Product Performance
 
-* Top selling products
-* Revenue by product category
-* Revenue by brand
+* Top-selling products
+* Revenue contribution by product categories
+* Brand-level revenue analysis
 
 ### Customer Behavior
 
 * Customer purchase frequency
-* Identification of top customers
+* Identification of high-value customers
 
 ### Funnel Analysis
 
-* Product views
+* Product view activity
 * Cart actions
 * User engagement patterns
 
@@ -90,11 +100,11 @@ The analysis uses the following tables:
 
 ## Key Insights
 
-* Certain product categories generate significantly higher revenue.
-* A small number of products contribute to a large share of total sales.
-* Most customers place only one order, indicating opportunities for improving customer retention.
-* User engagement is highest during product viewing stages.
-* Product ratings generally fall between medium and high ranges.
+* Certain product categories contribute significantly to total platform revenue.
+* A small percentage of products generate a large share of total sales.
+* Most customers make only one purchase, indicating opportunities to improve customer retention strategies.
+* User engagement is highest at the product browsing stage, with fewer users proceeding to cart actions.
+* Most product ratings fall within medium to high ranges, suggesting generally positive customer feedback.
 
 ---
 
@@ -121,4 +131,5 @@ ecommerce-data-analysis
 
 ## Conclusion
 
-This analysis highlights key product categories, customer purchasing patterns, and engagement trends. The insights can help businesses optimize product strategies, improve customer retention, and increase revenue.
+This analysis highlights important product trends, customer purchasing patterns, and engagement behaviors in the e-commerce platform.
+The insights can help businesses optimize product strategies, improve marketing efforts, and enhance customer retention.
