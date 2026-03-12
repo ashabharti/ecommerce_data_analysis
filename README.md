@@ -90,11 +90,11 @@ The analysis uses the following tables:
 
 ### Monthly Order Trend
 
-![Order Trend](images/order_trend.png)
+![Order Trend](monthly_order_trend.png)
 
 ### Revenue by Category
 
-![Category Revenue](images/category_revenue.png)
+![Category Revenue](revenue_by_category.png)
 
 ---
 
