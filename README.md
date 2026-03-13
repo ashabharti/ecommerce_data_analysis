@@ -73,12 +73,6 @@ The analysis uses the following tables:
 * Customer purchase frequency
 * Identification of high-value customers
 
-### Funnel Analysis
-
-* Product view activity
-* Cart actions
-* User engagement patterns
-
 ### Review Analysis
 
 * Rating distribution
