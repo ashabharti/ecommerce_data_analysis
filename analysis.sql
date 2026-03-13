@@ -5,14 +5,14 @@ FROM ecommerce_dataset.order_items;
 
 -- Average Order Value
 SELECT 
-AVG(total_amount) AS avg_order_value
-FROM orders;
+SUM(total_amount) / COUNT(order_id) AS avg_order_value
+FROM ecommerce_dataset.orders;
 
 -- Order Status Distribution
 SELECT 
 order_status,
 COUNT(*) AS total_orders
-FROM orders
+FROM ecommerce_dataset.orders
 GROUP BY order_status;
 
 -- Top Selling Products
@@ -70,13 +70,15 @@ COUNT(*) AS total_events
 FROM ecommerce_dataset.events
 GROUP BY event_type;
 
-/* Funnel Analysis (Views → Cart)
- Analyze the customer journey.*/
+-- User Engagement Analysis by Event Type
 
 SELECT 
 event_type,
+COUNT(*) AS total_events,
 COUNT(DISTINCT user_id) AS unique_users
 FROM ecommerce_dataset.events
-GROUP BY event_type;
+GROUP BY event_type
+ORDER BY total_events DESC;
+
 
 
